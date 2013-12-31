@@ -1,4 +1,15 @@
 
+
+#Vim 
+
+- Add this to VIM folder 
+
+https://github.com/davidbeckingsale/writegood.vim.git
+
+
+
+
+
 # don't do this for dumb terminals
 if [ "$TERM" != "dumb" ]; then
  if [ $(uname) == "Linux"  ]; then
