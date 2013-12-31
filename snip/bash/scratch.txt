@@ -1,0 +1,36 @@
+
+
+
+#######################################
+
+Renaming/moving files with suffixes quickly:
+#cp /home/foo/realllylongname.cpp{,-old}
+
+This expands to:
+#cp /home/foo/realllylongname.cpp /home/foo/realllylongname.cpp-old
+
+
+#######################################
+$ ls
+this_has_text_to_find_1.txt
+this_has_text_to_find_2.txt
+this_has_text_to_find_3.txt
+this_has_text_to_find_4.txt
+
+$ rename 's/text_to_find/been_renamed/' *.txt
+$ ls
+this_has_been_renamed_1.txt
+this_has_been_renamed_2.txt
+this_has_been_renamed_3.txt
+this_has_been_renamed_4.txt
+
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+
+

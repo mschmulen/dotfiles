@@ -13,13 +13,14 @@ export JAVA_HOME=/Library/Java/Home
 
 #  ---------------------------------------------------------------------------
 #code snippets
-alias snip='echo snip-strong snip-ycomb snip-fib'
-alias snip-strong-view='pbcopy < ~/snip/strong-view.js'
-alias snip-ycomb='pbcopy < ~/snip/ycombinator.js'
+# alias snip='echo snip-strong snip-ycomb snip-fib'
+# alias snip-strong-view='pbcopy < ~/snip/strong-view.js'
+# alias snip-ycomb='pbcopy < ~/snip/ycombinator.js'
+# alias snip-n-fib='pbcopy < ~/snip/node/fib.js'
+# alias snip-n-server='pbcopy < ~/snip/node/server.js'
+# alias snip-n-fib='pbcopy < ~/snip/node/fib.js'
 
-alias snip-n-fib='pbcopy < ~/snip/node/fib.js'
-alias snip-n-server='pbcopy < ~/snip/node/server.js'
-alias snip-n-fib='pbcopy < ~/snip/node/fib.js'
+
 #echo 'Hello World!' | pbcopy
 #echo `pbpaste`
 
