@@ -64,12 +64,12 @@ alias tiphone="titanium run --platform=iphone"
 #  ---------------------------------------------------------------------------
 # Setup Amazon EC2 Command-Line Tools
 #  ---------------------------------------------------------------------------
-export EC2_HOME=~/.ec2
-export PATH=$PATH:$EC2_HOME/bin
-export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
-export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
+# export EC2_HOME=~/.ec2
+# export PATH=$PATH:$EC2_HOME/bin
+# export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+# export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
 #us-west-1b
-export EC2_URL=https://ec2.us-west-1.amazonaws.com
+# export EC2_URL=https://ec2.us-west-1.amazonaws.com
 #  ---------------------------------------------------------------------------
 
 #  ---------------------------------------------------------------------------
