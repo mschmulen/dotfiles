@@ -1,0 +1,22 @@
+
+
+
+YCombinator
+http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/
+http://mvanier.livejournal.com/2897.html
+http://blog.jcoglan.com/2008/01/10/deriving-the-y-combinator/
+
+
+A* 
+	http://writerjoshuajames.com/dailydojo/?p=753
+	http://www.briangrinstead.com/blog/astar-search-algorithm-in-javascript
+	https://github.com/bgrins/javascript-astar
+
+
+Applications
+	http://thenittygritty.co/ffos-apps?utm_source=javascriptweekly&utm_medium=email
+
+
+Extensions: Array#rand
+	http://strd6.com/2010/08/useful-javascript-game-extensions-arrayrand/
+
