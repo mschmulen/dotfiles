@@ -40,18 +40,18 @@ alias chrome="open /Applications/Google\ Chrome.app --args &"
 #alias chrome="open /Applications/Google\ Chrome.app/ --args -disable-web-security -allow-file-access-from-files -start-maximized"
 #alias chrome-android="chrome --user-agent='Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522+ (KHTML, like Gecko ) Safari/419.3'"
 
-
 # chromium depot tools
-export PATH=/Users/mattschmulen/life-chromium/depot_tools:$PATH
+#export PATH=/Users/mattschmulen/life-chromium/depot_tools:$PATH
 
 #  ---------------------------------------------------------------------------
 
 #add android tools
-export PATH=${PATH}:/Users/mattschmulen/Library/Developer/Android/adt-bundle-mac-x86_64-20130717/sdk/platform-tools
-export PATH=${PATH}:/Users/mattschmulen/Library/Developer/Android/adt-bundle-mac-x86_64-20130717/sdk/tools
+export ANDROID_SDK=$HOME/Library/Developer/Android
+export PATH=${PATH}:$HOME/Library/Developer/Android/sdk/platform-tools
+export PATH=${PATH}:$HOME/Library/Developer/Android/sdk/tools
 
 #Titanium Configurations
-alias titaniumold="/Users/mschmulen/Library/Application\ Support/Titanium/mobilesdk/osx/2.1.3.GA/titanium.py"
+alias titaniumold="$HOME/Library/Application\ Support/Titanium/mobilesdk/osx/2.1.3.GA/titanium.py"
 alias modandroid="titaniumold create --platform=android --type=module --dir=. --name=mymodule --id=com.appc.mymodule --android=/Users/mattschmulen/Library/Developer/Android/adt-bundle-mac-x86_64-20130717/sdk"
 alias modiphone="titaniumold create --platform=iphone --type=module --dir=. --name=mymodule --id=com.appc.mymodule"
 alias tiphone="titanium run --platform=iphone"
