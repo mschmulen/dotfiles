@@ -35,4 +35,7 @@ fi
 - [Mou](http://mouapp.com/ ), [Mou.zip](http://mouapp.com/download/Mou.zip) 
 - [Android] (http://developer.android.com/index.html)
 - [iterm2](http://www.iterm2.com/#/section/home)
+- [Vagrant](http://www.vagrantup.com/)
+- [virtualBox](https://www.virtualbox.org/)
+
 
