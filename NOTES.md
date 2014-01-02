@@ -11,6 +11,7 @@ https://github.com/davidbeckingsale/writegood.vim.git
 
 
 # don't do this for dumb terminals
+```
 if [ "$TERM" != "dumb" ]; then
  if [ $(uname) == "Linux"  ]; then
    # Linux
@@ -24,5 +25,15 @@ if [ "$TERM" != "dumb" ]; then
  #This is for everyone       
  export CLICOLOR=1
 fi
+```
+
+###Other Installs
+
+- [TextMate](http://macromates.com/)
+- [ScreenFlow](http://www.telestream.net/screenflow/overview.htm)
+- [Skype](http://www.skype.com)
+- [Mou](http://mouapp.com/ ), [Mou.zip](http://mouapp.com/download/Mou.zip) 
+- [Android] (http://developer.android.com/index.html)
+
 
 
