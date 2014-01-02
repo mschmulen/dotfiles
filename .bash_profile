@@ -32,9 +32,6 @@ export JAVA_HOME=/Library/Java/Home
 alias pime='ssh 192.168.2.2 -l pi'
 
 
-
-
-
 #  ---------------------------------------------------------------------------
 alias c9='~/nodelife/strongloop/c9/cloud9/bin/cloud9.sh'
 alias webdev="open /Applications/Google\ Chrome.app --args --allow-file-access-from-files"
