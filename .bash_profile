@@ -83,9 +83,19 @@ export PATH="/usr/local/heroku/bin:$PATH"
 #alias mvim="open /Applications/MacVim-snapshot-66/mvim &"
 export PATH=${PATH}:/Applications/MacVim-snapshot-66
 
+
 #  ---------------------------------------------------------------------------
 #  GIT
 #  ---------------------------------------------------------------------------
+alias gs="git status"
+alias ga="git add"
+alias go="git checkout"
+alias gc="git commit"
+#alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+#alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cred(Author: %ae)%Creset" --abbrev-commit --date=relative'
+alias gp="git push"
+alias gd="git diff"
+
 #**************************showing git branches in bash prompt***********************************
 function is_git_dirty {
    [[ $(git status -z | grep -v '^\?') != "" ]] && echo "*"
@@ -104,9 +114,6 @@ function parse_git_branch {
 
 
 #MISC
-#alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cred(Author: %ae)%Creset" --abbrev-commit --date=relative'
-#alias gst='git status'
-#alias la='ls -la'
 
 #  ---------------------------------------------------------------------------
 #  Vagrant aliases
@@ -116,16 +123,11 @@ alias vu="vagrant up"
 alias vd="vagrant suspend"
 alias vr="vagrant reload"
 alias vs="vagrant ssh"
-
 # How do I destroy a VM when I deleted the .vagrant file
 # http://stackoverflow.com/questions/15408969/how-do-i-destroy-a-vm-when-i-deleted-the-vagrant-file
 # $ VBoxManage list runningvms
 # $ VBoxManage controlvm <uuid> poweroff
 # $ VBoxManage unregistervm <uuid>
-
-#alias ga="git add ."
-#alias gc="git commit -a"
-#alias gp="git push"
 
 #  ---------------------------------------------------------------------------
 #  Configure go 
