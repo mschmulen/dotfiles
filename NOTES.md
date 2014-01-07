@@ -37,5 +37,10 @@ fi
 - [iterm2](http://www.iterm2.com/#/section/home)
 - [Vagrant](http://www.vagrantup.com/)
 - [virtualBox](https://www.virtualbox.org/)
+- [Brew] ( ) 
+```
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)" 
+```
+
 
 
