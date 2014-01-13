@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Symlink .bash_profile and other profiles

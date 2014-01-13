@@ -11,8 +11,20 @@ export PS1="\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m
 export PATH=/usr/local/bin:$PATH
 export JAVA_HOME=/Library/Java/Home
 
+
 #  ---------------------------------------------------------------------------
-#code snippets
+#	 iTerm
+#  ---------------------------------------------------------------------------
+
+alias iterm="open /Applications/iTerm.app -n"
+
+
+#  ---------------------------------------------------------------------------
+#  code snippets and project folders
+#  ---------------------------------------------------------------------------
+alias blog='~/dotfiles/quickstart/blog.sh'
+alias pibeacon='~/dotfiles/quickstart/pibeacon.sh'
+
 # alias snip='echo snip-strong snip-ycomb snip-fib'
 # alias snip-strong-view='pbcopy < ~/snip/strong-view.js'
 # alias snip-ycomb='pbcopy < ~/snip/ycombinator.js'
@@ -147,3 +159,11 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # --------------------
 # END OF BASH_PROFILE
 # --------------------
+
+export PATH=/Users/matt/bin/Sencha/Cmd/4.0.1.45:$PATH
+
+export SENCHA_CMD_3_0_0="/Users/matt/bin/Sencha/Cmd/4.0.1.45"
+
+# __loopback-oracle-installer__:  Fri Jan 10 14:04:05 PST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/yack/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+

@@ -42,5 +42,6 @@ fi
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)" 
 ```
 
-
+####iOS Development
+- [sudo gem install cocoapods](http://cocoapods.org/)
 
