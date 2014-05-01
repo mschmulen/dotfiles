@@ -26,13 +26,21 @@ http://www.techrepublic.com/blog/software-engineer/xcode-ios-default-application
 Mobile
 http://blog.startapp.com/app-updates-versioning/
 http://blog.flurry.com/bid/110166/The-Rise-of-the-Mobile-Addict
+http://blog.startapp.com/app-updates-versioning/
+https://www.plcrashreporter.org/documentation/api/v1.2-rc4/
+https://www.plausible.coop/blog/?p=176
+https://github.com/kstenerud/KSCrash
 
 
+Xam
+http://kannan-chandra.com/posts/xamarin-binding-appsee/
+http://xandroid4net.blogspot.com/2013/11/how-to-capture-unhandled-exceptions.html
 
 
 Docker Vagrant
 http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html
 
+https://gandalf.io/
 
 
 Misc
@@ -42,4 +50,7 @@ http://projectnaptha.com/
 http://www.badlogicgames.com/wordpress/?p=3412
 http://appium.io/
 
-http://blog.startapp.com/app-updates-versioning/
+
+
+http://www.daniellesucher.com/2014/04/24/my-new-favorite-vim-tmux-bug/
+
