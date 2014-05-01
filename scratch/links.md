@@ -21,6 +21,7 @@ http://www.techrepublic.com/blog/software-engineer/create-your-own-apple-iphone-
 http://www.techrepublic.com/blog/software-engineer/xcode-ios-default-application-templates-at-a-glance
 http://www.techrepublic.com/blog/software-engineer/arc-simplifies-ios-memory-management/120/
 http://www.techrepublic.com/blog/software-engineer/xcode-ios-default-application-templates-at-a-glance/166/
+http://nshipster.com/xcode-plugins/
 
 
 Mobile
@@ -39,8 +40,9 @@ http://xandroid4net.blogspot.com/2013/11/how-to-capture-unhandled-exceptions.htm
 
 Docker Vagrant
 http://www.vagrantup.com/blog/feature-preview-vagrant-1-6-docker-dev-environments.html
-
+http://lukebond.ghost.io/getting-started-with-coreos-and-docker-using-vagrant/
 https://gandalf.io/
+http://www.centurylinklabs.com/what-is-docker-and-when-to-use-it
 
 
 Misc
@@ -50,7 +52,21 @@ http://projectnaptha.com/
 http://www.badlogicgames.com/wordpress/?p=3412
 http://appium.io/
 
+https://giveit100.com/start
+https://www.youtube.com/watch?v=155hznVsRkY
+
 
 
 http://www.daniellesucher.com/2014/04/24/my-new-favorite-vim-tmux-bug/
+
+
+yack
+
+http://jdan.github.io/isomer/
+http://codepen.io/jdan/pen/HmGCz?editors=001
+https://github.com/jdan/isomer
+http://www.onebigfluke.com/2014/04/gos-power-is-in-emergent-behavior.html
+http://peter.bourgon.org/go-in-production/
+http://sorting.at/
+http://blog.andrewsomething.com/2014/04/25/digitalocean-indicator-release/
 
