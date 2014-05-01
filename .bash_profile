@@ -11,6 +11,23 @@ export PS1="\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m
 export PATH=/usr/local/bin:$PATH
 export JAVA_HOME=/Library/Java/Home
 
+#  ------
+#  https://news.ycombinator.com/item?id=7051091 
+#  configure Vi mode for bash terminal
+#  -------
+#  set -o vi
+#alias vi='vim -u ~/.vimrc'
+alias vi='vim'
+export EDITOR='vim'
+
+#  ---------------------------------------------------------------------------
+#	 teensy tools
+#  ---------------------------------------------------------------------------
+alias hid_listen="~/dotfiles/tools/hid_listen.mac"
+#alias teensy_loader_cli="~/dotfiles/tools/teensy_loader_cli/teensy_loader_cli"
+
+#  CrossPack for AVR Development
+export PATH=${PATH}:/usr/local/CrossPack-AVR/bin
 
 #  ---------------------------------------------------------------------------
 #	 iTerm
@@ -101,7 +118,7 @@ export PATH=${PATH}:/Applications/MacVim-snapshot-66
 #  ---------------------------------------------------------------------------
 alias gs="git status"
 alias ga="git add"
-alias go="git checkout"
+#alias go="git checkout"
 alias gc="git commit"
 #alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 #alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cred(Author: %ae)%Creset" --abbrev-commit --date=relative'
@@ -141,10 +158,21 @@ alias vs="vagrant ssh"
 # $ VBoxManage controlvm <uuid> poweroff
 # $ VBoxManage unregistervm <uuid>
 
+
+#  ---------------------------------------------------------------------------
+# DOCKER
+#  ---------------------------------------------------------------------------
+export DOCKER_HOST=localhost
+
+
+
+
 #  ---------------------------------------------------------------------------
 #  Configure go 
 #  ---------------------------------------------------------------------------
 export PATH=$PATH:/usr/local/go/bin
+#export GOPATH=/usr/local/go
+export GOPATH=$HOME/gocode
 
 #  ---------------------------------------------------------------------------
 #  Misc
@@ -166,4 +194,36 @@ export SENCHA_CMD_3_0_0="/Users/matt/bin/Sencha/Cmd/4.0.1.45"
 
 # __loopback-oracle-installer__:  Fri Jan 10 14:04:05 PST 2014
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/yack/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Sat Jan 18 15:02:01 MST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/scratch/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Fri Feb 21 16:15:01 PST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/scratch/blob/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Wed Feb 26 19:48:24 PST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/strongloop/example-demo/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Thu Feb 27 14:50:31 PST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/mschmulen/openshift/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Thu Feb 27 16:25:00 PST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/mschmulen/openshift-cartridge-strongloop/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Mon Mar  3 11:04:09 PST 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/scratch/yack/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Wed Apr  9 14:52:57 EDT 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/example/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
+# __loopback-oracle-installer__:  Wed Apr  9 16:28:40 EDT 2014
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/nodephilly/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
 

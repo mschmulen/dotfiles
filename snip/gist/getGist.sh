@@ -1,5 +1,4 @@
 
-
 #!/bin/bash
 #Usage ./gistToken.sh USERNAME (don't forget to chmod+x it)
 # taken from https://gist.github.com/jjperezaguinaga/4100532

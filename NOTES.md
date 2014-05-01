@@ -37,10 +37,10 @@ fi
 - [iterm2](http://www.iterm2.com/#/section/home)
 - [Vagrant](http://www.vagrantup.com/)
 - [virtualBox](https://www.virtualbox.org/)
-- [Brew] ( ) 
-```
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)" 
-```
+- [Brew] (http://brew.sh/)  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)" 
+- [MongoDB](http://mongodb.com) ```brew update; brew install mongodb```
+- Xcode command line ``` /usr/bin/sudo /usr/bin/xcode-select --install ```
+
 
 ####iOS Development
 - [sudo gem install cocoapods](http://cocoapods.org/)
