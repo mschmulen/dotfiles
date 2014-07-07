@@ -19,6 +19,13 @@ export JAVA_HOME=/Library/Java/Home
 alias vi='vim'
 export EDITOR='vim'
 
+
+#  -------
+#	 xctool 
+#  -------
+# path/to/xctool.sh -help
+alias xctool ~/trees/tools/xctool/xctool.sh
+
 #  ---------------------------------------------------------------------------
 #	 teensy tools
 #  ---------------------------------------------------------------------------
