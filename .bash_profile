@@ -24,7 +24,7 @@ export EDITOR='vim'
 #	 xctool 
 #  -------
 # path/to/xctool.sh -help
-alias xctool ~/trees/tools/xctool/xctool.sh
+alias xctool="~/trees/tools/xctool/xctool.sh"
 
 #  ---------------------------------------------------------------------------
 #	 teensy tools
