@@ -3,12 +3,21 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 #export GREP_OPTIONS='--color=auto'
 
+
+
 # set custom bash prompt
 export PS1="\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m\]\W\[\033[0m\]$ "
 
 #add /usr/local/bin to path
 export PATH=/usr/local/bin:$PATH
 export JAVA_HOME=/Library/Java/Home
+
+
+# mongodb
+export PATH=/Users/mattschmulen/trees/github.com/mongodb/mongodb/bin:$PATH
+# data path /Users/mattschmulen/data/db 
+
+
 
 #  ------
 #  https://news.ycombinator.com/item?id=7051091 
@@ -84,6 +93,11 @@ alias chrome="open /Applications/Google\ Chrome.app --args &"
 export ANDROID_SDK=$HOME/Library/Developer/Android
 export PATH=${PATH}:$HOME/Library/Developer/Android/sdk/platform-tools
 export PATH=${PATH}:$HOME/Library/Developer/Android/sdk/tools
+
+export PATH=${PATH}:$HOME/Library/Developer/Android/android-sdk/sdk
+export PATH=${PATH}:$HOME/Library/Developer/Android/android-sdk/sdk/tools
+
+export ANDROID_HOME=/Users/mattschmulen/Library/Developer/Android/android-sdk/sdk
 
 #Titanium Configurations
 alias titaniumold="$HOME/Library/Application\ Support/Titanium/mobilesdk/osx/2.1.3.GA/titanium.py"
@@ -191,6 +205,20 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # --------------------
+# Visual Studio
+# --------------------
+
+code () {
+    if [[ $# = 0 ]]
+    then
+        open -a "Visual Studio Code"
+    else
+        [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
+        open -a "Visual Studio Code" --args "$F"
+    fi
+}
+
+# --------------------
 # END OF BASH_PROFILE
 # --------------------
 
@@ -232,4 +260,6 @@ export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/example/sls-sampl
 
 # __loopback-oracle-installer__:  Wed Apr  9 16:28:40 EDT 2014
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Users/matt/trees/nodephilly/sls-sample-app/node_modules/loopback-connector-oracle/node_modules/instantclient"
+
+
 
